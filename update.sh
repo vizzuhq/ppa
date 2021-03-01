@@ -1,4 +1,6 @@
 #!/bin/bash
+cd docs/ubuntu
+
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 
@@ -8,4 +10,4 @@ gpg --default-key "simon@vizzuhq.com" --clearsign -o - Release > InRelease
 
 git add -A
 git commit -m update
-git push
+
