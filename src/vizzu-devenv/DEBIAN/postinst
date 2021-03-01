@@ -1,1 +1,7 @@
 #!/bin/bash
+cd /opt
+git clone https://github.com/emscripten-core/emsdk.git
+cd emsdk
+./emsdk install 1.40.1
+./emsdk activate 1.40.1
+
