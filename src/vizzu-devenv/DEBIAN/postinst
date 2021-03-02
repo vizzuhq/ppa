@@ -1,2 +1,13 @@
 #!/bin/bash
+# install and setup emscripten
+cd /opt
+git clone https://github.com/emscripten-core/emsdk.git
+cd /opt/emsdk
+./emsdk install 1.40.1
+./emsdk activate 1.40.1
+cd /opt
+groupadd emsdk
+sudo usermod -a -G emsdk $SUDO_USER
+chown -R root:emsdk
+#echo 'source "/opt/emsdk/emsdk_env.sh"' >> $HOME/.bashrc
 
