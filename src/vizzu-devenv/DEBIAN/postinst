@@ -8,6 +8,6 @@ cd /opt/emsdk
 cd /opt
 groupadd emsdk
 sudo usermod -a -G emsdk $SUDO_USER
-chown -R root:emsdk
+chown -R root:emsdk emsdk
 #echo 'source "/opt/emsdk/emsdk_env.sh"' >> $HOME/.bashrc
 

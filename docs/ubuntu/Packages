@@ -6,9 +6,9 @@ Installed-Size: 4
 Depends: git, cmake, qt5-default, libqt5svg5-dev, zlib1g-dev, libsdl2-ttf-dev, libsdl2-image-dev, libsdl2-gfx-dev, fonts-roboto
 Filename: ./vizzu-devenv_0.1_amd64.deb
 Size: 1068
-MD5sum: d0ab905dee89fd37c160fb1decb34a07
-SHA1: b74a10c6dd47ec162edaeaf74fd91af30bd990fc
-SHA256: b17c19338d3646cc67c28ca5686c75fbb0009f7d74374a865b0d9d491674af60
+MD5sum: 9a19a63be87d2ae37f58c23bd859f14a
+SHA1: f4cdbd065498935e7f3e611da726bbaf91dfbb88
+SHA256: 9f09527318dfa8ccf570ad9c993344e36d65f1e74b5a6a29651d0b68356fd6b5
 Section: devel
 Priority: optional
 Description: This package installs and sets all the build dependencies for the Vizzu project
