@@ -1,3 +1,5 @@
 #!/bin/bash
-rm -rf /opt/emsdk
-groupdel emsdk
+userhome=$( eval echo ~$SUDO_USER )
+rm -rf $userhome/emsdk
+sed -i '/^source.*emsdk_env\.sh"$/d' $userhome/.bashrc
+
