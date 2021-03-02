@@ -9,6 +9,6 @@ cd /opt
 groupadd emsdk
 sudo usermod -a -G emsdk $SUDO_USER
 chown -R root:emsdk emsdk
-chmod -R g=u directory
+chmod -R g=u emsdk
 #echo 'source "/opt/emsdk/emsdk_env.sh"' >> $HOME/.bashrc
 
