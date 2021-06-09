@@ -2,7 +2,7 @@ Package: vizzu-devenv
 Version: 0.1
 Architecture: amd64
 Maintainer: Laszlo Simon
-Depends: git, cmake, build-essential, qt5-default, zlib1g-dev
+Depends: git, cmake, build-essential, qt5-default, zlib1g-dev, nodejs
 Priority: optional
 Section: devel
 Installed-Size: 4
