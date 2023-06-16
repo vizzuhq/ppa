@@ -5,10 +5,10 @@ Maintainer: Laszlo Simon
 Installed-Size: 4
 Depends: git, cmake, build-essential, qt5-default, zlib1g-dev, nodejs
 Filename: ./vizzu-devenv_0.1_amd64.deb
-Size: 1048
-MD5sum: 1fd407d35f81c8a3a52f4d4ade577a3c
-SHA1: 8aa3aa8742056f527ceea00430a957fdded39504
-SHA256: 4571f67ff9bfff920861156168c027d8eb93b7bc88fa115759fe926eb3caf6d1
+Size: 848
+MD5sum: d0786ca42592bc0667abf7660696d1e9
+SHA1: 8f80324abb488f54e2bca11d2df07d5cf1d4bbad
+SHA256: 8e673f030460fad1290c227c1f2f4878fa302a6066bf0c4be8569046ef58f95a
 Section: devel
 Priority: optional
 Description: This package installs and sets all the build dependencies for the Vizzu project

@@ -4,8 +4,8 @@ userhome=$( eval echo ~$SUDO_USER )
 cd $userhome
 git clone https://github.com/emscripten-core/emsdk.git
 cd $userhome/emsdk
-./emsdk install 1.40.1
-./emsdk activate 1.40.1
+./emsdk install 3.1.41
+./emsdk activate 3.1.41
 cd $userhome
 chown -R $SUDO_USER:$SUDO_USER emsdk
 echo "source \"$userhome/emsdk/emsdk_env.sh\"" >> $userhome/.bashrc
