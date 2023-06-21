@@ -1,4 +1,4 @@
-# Install Vizzu build dependencies on Ubuntu 20.04
+# Install Vizzu build dependencies on Ubuntu 22.04
 
 Add Vizzu PPA to the repository list:
 
@@ -9,3 +9,11 @@ Add Vizzu PPA to the repository list:
 Install build dependencies:
 
 `sudo apt-get install vizzu-devenv`
+
+Install nodejs:
+
+`wget --quiet -O - https://deb.nodesource.com/setup_18.x | sudo bash`
+
+`sudo apt-get update`
+
+`sudo apt-get install nodejs`

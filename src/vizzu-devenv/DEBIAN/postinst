@@ -9,4 +9,3 @@ cd $userhome/emsdk
 cd $userhome
 chown -R $SUDO_USER:$SUDO_USER emsdk
 echo "source \"$userhome/emsdk/emsdk_env.sh\"" >> $userhome/.bashrc
-
